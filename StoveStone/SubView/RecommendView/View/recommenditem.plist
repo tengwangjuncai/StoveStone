@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>最新</string>
+		<key>className</key>
+		<string>LatestViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>资讯</string>
+		<key>className</key>
+		<string>InformationView</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>卡组</string>
+		<key>className</key>
+		<string>CardGroupViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>视频</string>
+		<key>className</key>
+		<string>VideoViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>娱乐</string>
+		<key>className</key>
+		<string>AmusementViewController</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>赛事</string>
+		<key>className</key>
+		<string>MatchEvenViewController</string>
+	</dict>
+</array>
+</plist>

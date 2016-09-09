@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TopicPlayCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="125" height="125"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="l97-M7-zMV">
+                        <rect key="frame" x="37" y="31" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="4Va-Kk-Mzr"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是题目" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msl-TN-KOm">
+                        <rect key="frame" x="24" y="86" width="76" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="e3N-8h-kdA"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="1" green="0.99239382465412107" blue="0.48779790558267822" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="l97-M7-zMV" secondAttribute="trailing" constant="38" id="4LV-WY-AZQ"/>
+                <constraint firstItem="l97-M7-zMV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="31" id="5m1-rZ-f6u"/>
+                <constraint firstAttribute="trailing" secondItem="Msl-TN-KOm" secondAttribute="trailing" constant="25" id="8ZQ-vY-4WJ"/>
+                <constraint firstItem="Msl-TN-KOm" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="24" id="k8U-nQ-GI0"/>
+                <constraint firstItem="Msl-TN-KOm" firstAttribute="top" secondItem="l97-M7-zMV" secondAttribute="bottom" constant="5" id="kV0-oC-mBI"/>
+                <constraint firstItem="l97-M7-zMV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="37" id="uQe-nM-UVf"/>
+            </constraints>
+            <size key="customSize" width="50" height="106"/>
+            <connections>
+                <outlet property="mainImageView" destination="l97-M7-zMV" id="rtG-MH-HxI"/>
+                <outlet property="titleLabel" destination="Msl-TN-KOm" id="9Lw-xq-429"/>
+            </connections>
+            <point key="canvasLocation" x="155.5" y="176.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

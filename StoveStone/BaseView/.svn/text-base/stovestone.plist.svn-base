@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>title</key>
+		<string>推荐</string>
+		<key>className</key>
+		<string>RecommentView</string>
+		<key>icon</key>
+		<string>recommend</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>发现</string>
+		<key>className</key>
+		<string>TopicPlayView</string>
+		<key>icon</key>
+		<string>discover</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>广场</string>
+		<key>className</key>
+		<string>GroundView</string>
+		<key>icon</key>
+		<string>ground</string>
+	</dict>
+	<dict>
+		<key>title</key>
+		<string>我</string>
+		<key>className</key>
+		<string>MySettingTableViewController</string>
+		<key>icon</key>
+		<string>me</string>
+	</dict>
+</array>
+</plist>
